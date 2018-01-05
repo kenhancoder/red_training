@@ -24,9 +24,7 @@ temp_func: func [num[integer!] return: [integer!]][
     temp: num + 1
     temp
 ]
-temp_func 1
-print temp
-
+print temp_func 1
 
 temp: "test temp"
 print temp
@@ -34,14 +32,13 @@ temp_func_local: func [num[integer!] return: [integer!] /local temp][
     temp: num + 1
     temp
 ]
-temp_func_local 1
-print temp
+print temp_func_local 1
 
 temp: "test temp"
 print temp
+
 temp_function: function [num[integer!] return: [integer!]][
     temp: num + 1
     temp
 ]
-temp_function 1
-print temp
+print temp_function 1
