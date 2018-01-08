@@ -42,3 +42,17 @@ temp_function: function [num[integer!] return: [integer!]][
     temp
 ]
 print temp_function 1
+
+
+print "*******"
+triple: func[x] [
+    print 3 * x
+]
+triple 4
+triple 5
+triple 6
+print "I just tripled the numbers 4 (12), 5 (15), and 6 (18)"
+
+
+cls: does [loop 10 [print newline]]
+cls
